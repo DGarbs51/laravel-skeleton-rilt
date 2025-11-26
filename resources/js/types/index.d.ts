@@ -1,6 +1,12 @@
 import { InertiaLinkProps } from '@inertiajs/react';
+import type axios from 'axios';
 import { LucideIcon } from 'lucide-react';
 
+declare global {
+    interface Window {
+        axios: typeof axios;
+    }
+}
 export interface Auth {
     user: User;
 }

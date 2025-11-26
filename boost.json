@@ -1,0 +1,19 @@
+{
+    "agents": [
+        "claude_code",
+        "copilot",
+        "cursor",
+        "phpstorm"
+    ],
+    "editors": [
+        "claude_code",
+        "cursor",
+        "phpstorm",
+        "vscode"
+    ],
+    "guidelines": [
+        "laravel/fortify",
+        "tightenco/duster"
+    ],
+    "herd_mcp": true
+}
